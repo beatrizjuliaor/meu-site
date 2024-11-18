@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento Semanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Planejamento Semanal</h1>
+        <p>Adicione, edite ou remova suas tarefas para cada dia da semana.</p>
+    </header>
+
+    <div class="container">
+        <div class="dias-semana">
+            <div class="dia">
+                <h2>Segunda-feira</h2>
+                <div id="segunda-tarefas"></div>
+                <input type="text" id="input-segunda" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('segunda')">Adicionar Tarefa</button>
+            </div>
+            <div class="dia">
+                <h2>Terça-feira</h2>
+                <div id="terca-tarefas"></div>
+                <input type="text" id="input-terca" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('terca')">Adicionar Tarefa</button>
+            </div>
+            <div class="dia">
+                <h2>Quarta-feira</h2>
+                <div id="quarta-tarefas"></div>
+                <input type="text" id="input-quarta" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('quarta')">Adicionar Tarefa</button>
+            </div>
+            <div class="dia">
+                <h2>Quinta-feira</h2>
+                <div id="quinta-tarefas"></div>
+                <input type="text" id="input-quinta" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('quinta')">Adicionar Tarefa</button>
+            </div>
+            <div class="dia">
+                <h2>Sexta-feira</h2>
+                <div id="sexta-tarefas"></div>
+                <input type="text" id="input-sexta" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('sexta')">Adicionar Tarefa</button>
+            </div>
+            <div class="dia">
+                <h2>Sábado</h2>
+                <div id="sabado-tarefas"></div>
+                <input type="text" id="input-sabado" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('sabado')">Adicionar Tarefa</button>
+            </div>
+            <div class="dia">
+                <h2>Domingo</h2>
+                <div id="domingo-tarefas"></div>
+                <input type="text" id="input-domingo" placeholder="Nova tarefa...">
+                <button onclick="adicionarTarefa('domingo')">Adicionar Tarefa</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
